@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #E5D9C2;
+    color: #2F4F63;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8%;
+    gap: 30px;
+}
+.apresentacao__imagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__imagem__titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.apresentacao__imagem__titulo__h2 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.apresentacao__imagem__titulo__h1 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+}
+.apresentacao__imagem__titulo__h3 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+img {
+    width: 40%;
+}
+.apresentacao__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 8%;
+    gap: 15px;
+}
+.apresentacao__informacoes__botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.apresentacao__informacoes__botoes__botao {
+    background-color: #b6eace;
+    width: 200px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 20px 0px;
+    color:#5da67f;
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+h4 {
+    font-size: 20px;
+    color: #CF616A;
+}
+.titulo-destaque {
+    color: #CF616A;
+}
