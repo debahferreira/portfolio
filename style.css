@@ -22,6 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10%;
 }
 .apresentacao__imagem__titulo {
     display: flex;
@@ -47,7 +48,7 @@ body {
     font-size: 17px;
 }
 img {
-    width: 40%;
+    width: 45%;
 }
 .apresentacao__informacoes {
     display: flex;
@@ -59,6 +60,7 @@ img {
     font-size: 17px;
     margin-bottom: 8%;
     gap: 15px;
+    margin: auto;
 }
 .apresentacao__informacoes__botoes {
     display: flex;
